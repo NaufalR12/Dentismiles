@@ -1,0 +1,320 @@
+body {
+  max-width: 100%; /* Atur sesuai dengan kebutuhan */
+  overflow-x: hidden; /* Mengatasi horizontal scrolling jika terjadi */
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #749bc2;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-scrolled {
+  background-color: rgba(
+    116,
+    155,
+    194,
+    0.5
+  ); /* Warna latar belakang navbar saat discroll ke bawah */
+}
+
+.btn-custom {
+  background-color: #03a9f4;
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background-color: #0288d1;
+}
+.btn-custom2 {
+  background-color: #4680ce;
+  color: #fff;
+}
+
+.btn-custom2:hover {
+  background-color: #0475b2;
+}
+
+.btn-custom3 {
+  background-color: #c8e6c9;
+}
+
+.btn-custom3:hover {
+  background-color: #8eb891;
+  color: #fff;
+}
+
+.card-border-custom {
+  border: 2px solid #03a9f4; /* Ganti dengan warna yang diinginkan */
+  border-radius: 2rem; /* Atur sesuai kebutuhan */
+}
+
+.text-custom {
+  color: #03a9f4;
+}
+
+.text-custom2 {
+  color: #01579b;
+}
+
+.text-custom3 {
+  color: #6e6e6e;
+}
+.text-custom4 {
+  color: #38843c;
+}
+
+#menuNavbar {
+  padding: 0 1rem;
+  padding-bottom: 0.5rem;
+}
+
+#menuNavbar:hover {
+  color: #4680ce;
+  border-bottom: 0.15rem solid #4680ce;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  margin: 0 auto;
+}
+
+/* Lingkaran di background */
+body {
+  margin: 0;
+}
+
+.wrapper {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  top: -3.125rem;
+  left: -3.125rem;
+  z-index: -1;
+}
+
+.circle {
+  position: absolute;
+  width: 100rem;
+  height: 100rem;
+  background-color: #eff9fe;
+  border-radius: 50%;
+  top: -65rem;
+  left: -4.5rem;
+  z-index: 0;
+}
+
+/* Hero Section */
+
+/* Lingkaran 3 */
+.alas3 {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  top: 70rem;
+  right: -3.125rem;
+  z-index: -1;
+}
+
+.bulat3 {
+  position: absolute;
+  width: 60rem;
+  height: 26rem;
+  background: linear-gradient(to bottom, #5da0f8c5, #eff9fe);
+  border-radius: 15rem;
+  top: -25rem;
+  right: -15rem;
+  z-index: 0;
+}
+
+.bulat3 img {
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+/* Tentang kami */
+.detailKami {
+  border-left: 0.5rem solid grey;
+  padding-left: 0.5rem;
+}
+/* Lingkaran ke 2 */
+.alas {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  top: 65rem;
+  left: -30rem;
+  z-index: 3;
+}
+
+.bulat {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  background-color: #eff9fe;
+  border-radius: 50%;
+  top: 6.25rem;
+  left: 25rem;
+  z-index: 0;
+}
+
+.bulat .borderLingkaran {
+  position: absolute;
+  width: 32rem;
+  height: 32rem;
+  border: 0.15rem solid #4680ce;
+  border-radius: 50%;
+  top: 5rem;
+  left: 6rem;
+}
+
+.bulat img {
+  position: absolute;
+  width: 29rem;
+  height: 29rem;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 1;
+}
+
+.bulat .lingkaranBlur {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 29rem;
+  height: 29rem;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 2;
+}
+
+.bulat h2 {
+  position: absolute;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: bold;
+  top: 9.5rem;
+  left: 1.25rem;
+  z-index: 3;
+}
+
+/* Testimoni */
+
+#cardTestimoni {
+  border-top-right-radius: 15rem;
+  border-bottom-right-radius: 15rem;
+  border-bottom-left-radius: 15rem;
+}
+
+.star-full {
+  color: #ffd900;
+  fill: #ffd900;
+}
+
+.alas4 {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  top: 200rem;
+  right: -16.125rem;
+  z-index: -1;
+}
+
+.bulat4 {
+  position: absolute;
+  width: 50rem;
+  height: 21rem;
+  background: linear-gradient(to bottom, #5da0f8c5, #eff9fe);
+  border-radius: 15rem;
+  transform: rotate(-30deg);
+  top: -25rem;
+  right: -10rem;
+  z-index: 0;
+}
+
+.garisBulat {
+  position: absolute;
+  width: 29rem;
+  height: 29rem;
+  border: 0.15rem solid #4680ce;
+  border-radius: 50%;
+  top: -4rem;
+  left: -4rem;
+}
+
+.garisBulat h2 {
+  position: absolute;
+  transform: rotate(30deg);
+  top: 10rem;
+  left: 5cap;
+}
+
+/* Kontak Kami */
+.contact-info {
+  display: flex;
+  /* align-items: center; Opsi ini akan membuat ikon dan teks berada di tengah secara vertikal */
+}
+
+.contact-info p {
+  margin-right: 2rem; /* Atur jarak antara ikon dan teks */
+  margin-left: 0.5rem;
+}
+
+.namaCabang {
+  font-weight: bold;
+}
+
+.map {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Lingkaran ke 5 */
+.alas5 {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  top: 260rem;
+  left: -35rem;
+  z-index: -1;
+}
+
+.bulat5 {
+  position: absolute;
+  width: 50rem;
+  height: 50rem;
+  background-color: #eff9fe;
+  border-radius: 50%;
+  bottom: 6.25rem;
+  left: 25rem;
+  z-index: 0;
+}
+
+/* Notifikasi */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.popup p {
+  margin: 0;
+}
